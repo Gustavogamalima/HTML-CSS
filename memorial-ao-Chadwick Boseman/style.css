@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: #222;
+    color: #FFF;
+}
+
+header {
+    width: 100%;
+    background-image: url(imagens/chadwick-boseman-black-panther-avengers-infinity-war-1105481-1280x0.jpeg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.856) ;
+    border-bottom: solid 2px rgb(255, 255, 255);
+}
+
+header h1{
+    padding: 25px;
+}
+
+header h2{
+    font-size: 20px;
+    padding: 45px;
+}
+
+header p{
+    margin: 10px auto;
+    width: 80%; 
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+main div.imagem{
+    width: 50vh;
+    margin: auto;
+    font-size: 8px;
+    text-align: center;
+    border: solid 1px #FFF;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+main div.imagem h2{
+    margin-top: 8px;
+}
+
+main img{
+    width: 50vh;
+    border-radius: 5px;
+}
+
+article {
+    text-align: justify;
+    margin: 20px;
+}
+
+article h2 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+article p {
+    font-size: 14px;
+    text-indent: 1.5em;
+}
+
+article ul{
+    margin-left: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    margin-right: 20px;
+}
+
+.container .imagem {
+    margin-top: 0px;
+}
+
+footer {
+    padding: 10px;
+    border-top: solid 2px #FFF;
+    text-align: center;
+    font-size: 10px;
+}
+
+@media (max-width:800px) {
+    .container{
+        flex-direction: column;
+    }
+    .container .imagem{
+        margin: 20px auto 20px ;
+    }
+}
+
+@media (max-width:375px) {
+    .container .imagem{
+        margin: 20px auto 20px -20px;
+    }
+}
