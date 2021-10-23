@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px; 
+  margin: auto;
+}
+
+a { color: inherit; } 
+
+.header {
+    height: 150px;
+    margin: auto;
+    width: 1170px;
+    display: flex;
+}
+.logo {
+    width: 87.38px;
+    height: 99px;
+    margin: 9px auto;
+}
+
+.menu {
+    flex: 1;
+    height: 43px;
+    margin-top: 37px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu ul,
+.menu li {
+    list-style: none;
+}
+.menu ul {
+    display: flex;
+}
+.menu li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-transform: capitalize;
+
+    color: #454545;
+}
+
+.search {
+    position: flex;
+    width: 215px;
+    height: 43px;
+    align-items: center;
+    padding: 0 10px;
+
+    border: 1px solid #750099;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+
+.input-search {
+    display: flex;
+    margin: 10px;
+}
+
+.input-search a img {
+    margin-top: 3px;
+    width: 15px;
+    height: 15px;
+}
+
+#pesquisa {
+    width: 99%;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.artigo-banner {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.banner {
+    height: 567px;
+    background-image: url(../images/banner-artigo.jfif);
+    background-position: center;
+    overflow:hidden;
+}
+
+.banner-background {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.area-banner {
+    width: 1170px;
+    margin: auto;
+}
+
+.area-banner .button{
+    margin: 237px 0 0 0;
+}
+
+.area-banner h1 {
+    margin:32px 0 0 0;
+    width: 671px;
+    height: 100px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 50px;
+    
+    letter-spacing: 0.168px;
+    
+    color: #FFFFFF;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 115px;
+    height: 35px;
+
+    background: #E65100;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button .text {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 54px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.button .a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+
+    background: #FFC4A5;
+    border-radius: 23px;
+}
+
+.conteiner-conteudo {
+    width: 1170px;
+    margin: 124px auto 0 auto;
+    display: flex;
+}
+
+.compartilhe {
+    width: 220px;
+    height: 76px;
+    margin-right: 80px;
+}
+
+.img-rede-socias {
+    display: flex;
+}
+
+.texto-conteudo {
+    width: 792px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+
+
+    color: #454545;
+}
+
+.texto-conteudo p {
+    margin-bottom: 40px;
+}
+
+.texto-conteudo p:first-child {
+    margin: 0 0 24px 0;
+    width: 141px;
+    height: 24px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #E65100;
+}
+
+.leia-tambem {
+    display: flex;
+    flex-direction: column;
+}
+
+.leia-tambem h2 {
+    width: 100px;
+    height: 24px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-transform: uppercase;
+
+    color: #454545;
+}
+
+.linha {
+    width: 770px;
+    height: 1px;
+
+    background: #D9D9D9;
+}
+
+.leia-tambem a {
+    width: 687px;
+    height: 64px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+
+    text-transform: uppercase;
+
+    color: #0181DE;
+}
+
+.redes-socias h2{
+    width: 431px;
+    height: 24px;
+
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #454545;
+}
+
+.img-rede-socias img{
+    margin-right: 13px;
+    align-items: center;
+}
+
+.contener-footer {
+    width: 1170px;
+    height: 279px;
+    margin: 180px auto 32px auto;
+}
+
+
+.contener-footer-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    height: 229px;
+    border-top: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    height: 50%;
+    align-items: center;
+}
+
+.mapa-do-site {
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto-mapa-do-site {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto-mapa-do-site a {
+    margin-top: 2px;
+    text-decoration: none;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #838181;
+}
+
+.logo-mapa-do-site img{
+    width:77px;
+    height: 88px;
+}
+
+.contato-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-text p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #838181;
+}
+
+.titulo-footer {
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #750099;
+}
+
+
+.receber-noticias {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-receber-noticias h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 235px;
+}
+
+.texto-receber-noticias p {
+    width: 235px;
+    height: 24px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    color: #838181;
+}
+
+#email {
+    width: 151px;
+    height: 37px;
+
+    background: #FFFFFF;
+    border: 1px solid #E65100;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+#email::-webkit-input-placeholder{
+    width: 76px;
+    height: 21px;
+    padding-left: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+
+
+    color: #838181;
+
+}
+#email::-moz-placeholder {
+    width: 76px;
+    height: 21px;
+    padding-left: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #838181;
+}
+
+.enviar-email {
+    display: flex;
+    flex-direction: row;
+}
+
+.send-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84px;
+    height: 37px;
+
+    background: #E65100;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    border: none;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer-down {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+
+    color: #838181;
+}
+
+.footer-down-text {
+    margin-top: 24px;
+}
